@@ -8,6 +8,9 @@ header {
 nav {
   display: flex;
   align-items: center;
+  flex-direction: row; /* 🔑 force horizontal */
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* Reset mobile stacking */
@@ -23,6 +26,7 @@ nav a span {
 nav a {
   text-decoration: none;
   color: #222;
+  display: inline-block;
 }
 
 /* HOVER BACKGROUND (main feature) */
