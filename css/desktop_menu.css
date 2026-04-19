@@ -1,0 +1,68 @@
+/* DESKTOP MENU */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Reset mobile stacking */
+nav a span {
+  display: inline-block;
+  padding: 20px 18px;
+  background: transparent;
+  position: relative;
+  font-weight: 500;
+}
+
+/* Clean link look */
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+
+/* HOVER BACKGROUND (main feature) */
+nav a span:hover {
+  background: #007BFF;
+  color: white;
+}
+
+/* Smooth transition */
+nav a span {
+  transition: all 0.25s ease;
+}
+
+/* Optional: subtle underline animation (premium feel) */
+nav a span::after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 20%;
+  width: 60%;
+  height: 2px;
+  background: transparent;
+  transition: 0.25s ease;
+}
+
+nav a span:hover::after {
+  background: white;
+}
+
+/* Language button aligned nicely */
+#langToggle {
+  margin-left: 20px;
+  padding: 10px 14px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#langToggle:hover {
+  background: #0056b3;
+}

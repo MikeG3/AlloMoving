@@ -1,0 +1,41 @@
+/* MOBILE MENU */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a span {
+  display: block;
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  background: white;
+  transition: background 0.2s ease;
+}
+
+/* Tap / hover effect */
+nav a span:hover,
+nav a span:active {
+  background: #007BFF;
+  color: white;
+}
+
+/* Language button */
+#langToggle {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
