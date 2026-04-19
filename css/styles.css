@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  background: #f5f7fa;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.cta button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.cta .secondary {
+  background: #444;
+}
+
+.services {
+  background: #fafafa;
+  padding: 60px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: white;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.why ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why li {
+  margin: 10px 0;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #007BFF;
+  color: white;
+}
+
+.contact {
+  padding: 50px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
