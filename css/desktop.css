@@ -4,12 +4,6 @@
   max-width: 1200px;
 }
 
-/* NAVBAR */
-nav a {
-  display: inline-block;
-  margin: 0 15px;
-}
-
 /* HERO */
 .hero {
   padding: 140px 20px;
