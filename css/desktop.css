@@ -288,25 +288,25 @@ footer {
 }
 
 .blue-to-orange-grandient {
-  height: 200px;
+  height: 100px;
   z-index: 10;
   background: linear-gradient(to bottom , #0B1F3B, #FF6B00);
 }
 
 .orange-to-blue-grandient {
-  height: 200px;
+  height: 100px;
   z-index: 10;
   background: linear-gradient(to bottom , #FF6B00, #0B1F3B);
 }
 
 .blue-to-white-grandient {
-  height: 200px;
+  height: 100px;
   z-index: 10;
   background: linear-gradient(to bottom , #0B1F3B, #F2F4F7);
 }
 
 .white-to-blue-grandient {
-  height: 200px;
+  height: 100px;
   z-index: 10;
   background: linear-gradient(to bottom , #F2F4F7, #0B1F3B);
 }
