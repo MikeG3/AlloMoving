@@ -1,7 +1,32 @@
+/* Color palette in one of the text banners: 
+
+BLUE #0B1F3B
+ORANGE #FF6B00
+GRAY (almost white ) #F2F4F7
+
+ */
+
+ 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FF6B00;
+  color: #0B1F3B;
+  font-size: 1.25rem;
+}
 
 .container {
+  width: 90%;
+  margin: auto;
   max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.0);
 }
+
+header {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
 
 /* HERO */
 .hero {
@@ -23,6 +48,7 @@
 .cta button {
   padding: 15px 30px;
   font-size: 1em;
+  background-color: #FF6B00;
 }
 
 
@@ -32,6 +58,7 @@
   padding: 80px 0;
   text-align: center;
   max-width: 800px;
+  background-color: #FF6B00;
   color: #0B1F3B;
 }
 
@@ -40,8 +67,8 @@
   padding: 20px;
   border: 1px solid #eee;
   text-align: center;
-  background-color: #FF6B00;
-  color: 0B1F3B;
+  background-color: #0B1F3B;
+  color: #eee;
 }
 
 /* SERVICES GRID */
@@ -164,22 +191,8 @@
 .contact {
   padding: 80px 0;
   text-align: center;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #0B1F3B;
-}
-
-.container {
-  width: 90%;
-  margin: auto;
-}
-
-header {
-  background: white;
-  border-bottom: 1px solid #eee;
+  background-color: #FF6B00;
+  color: #F2F4F7;
 }
 
 .nav {
@@ -201,9 +214,10 @@ nav a {
 }
 
 .hero {
-  background: #FF6B00;
+  background: #0B1F3B;
   text-align: center;
   padding: 80px 20px;
+  color: white;
 }
 
 .hero h1 {
@@ -234,7 +248,7 @@ nav a {
   gap: 15px;
 }
 
-
+/* WHY US */
 .why {
   background: #0B1F3B;
   padding: 40px 0;
@@ -250,6 +264,9 @@ nav a {
   margin: 10px 0;
 }
 
+/* ON THE MOVE GALLERY */
+
+
 .cta-section {
   text-align: center;
   padding: 40px 20px;
@@ -259,11 +276,37 @@ nav a {
 
 .contact {
   padding: 40px 0;
+  font-size: 1.7rem;
 }
 
 footer {
-  text-align: center;
+  text-align: left;
+  font-size: 0.9rem;
   padding: 20px;
   background: #0B1F3B;
   color: white;
+}
+
+.blue-to-orange-grandient {
+  height: 200px;
+  z-index: 10;
+  background: linear-gradient(to bottom , #0B1F3B, #FF6B00);
+}
+
+.orange-to-blue-grandient {
+  height: 200px;
+  z-index: 10;
+  background: linear-gradient(to bottom , #FF6B00, #0B1F3B);
+}
+
+.blue-to-white-grandient {
+  height: 200px;
+  z-index: 10;
+  background: linear-gradient(to bottom , #0B1F3B, #F2F4F7);
+}
+
+.white-to-blue-grandient {
+  height: 200px;
+  z-index: 10;
+  background: linear-gradient(to bottom , #F2F4F7, #0B1F3B);
 }
