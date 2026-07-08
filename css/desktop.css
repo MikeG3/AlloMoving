@@ -45,21 +45,31 @@ header {
 }
 
 /* CTA buttons */
-.cta button {
+.hero-button-1, .hero-button-2 {
   padding: 15px 30px;
-  font-size: 1em;
-  background-color: #FF6B00;
+  font-size: 2.2rem;
+  background: #F2F4F7;
+  box-shadow: 6px 12px 20px rgba(255, 107, 0, 0.6);
+  border-radius: 15px;
 }
 
 
 /* ABOUT US SECTION */ 
-
 .about {
   padding: 80px 0;
   text-align: center;
   max-width: 800px;
   background-color: #FF6B00;
-  color: #0B1F3B;
+  color: #F2F4F7;
+  font-size: 1.5rem;
+}
+
+.about-us-container {
+  margin-left: auto;
+  padding: 20px 100px;
+  background-color: #0B1F3B;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.6);
 }
 
 /* ABOUST US CARDS */
@@ -67,26 +77,12 @@ header {
   padding: 20px;
   border: 1px solid #eee;
   text-align: center;
-  background-color: #0B1F3B;
+  background-color: #FF6B00;
+  border-radius: 10px;
+  margin: 8px;
   color: #eee;
 }
 
-/* SERVICES GRID */
-/*
-.grid {
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
-}
-
-.card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-}
-  */
 
   /* SERVICES SECTION */
   /* ==========================================
@@ -98,21 +94,21 @@ header {
     background: #f8f9fb;
 }
 
-.section-title {
+.what-we-do-section {
     text-align: center;
     max-width: 900px;
     margin: auto;
     margin-bottom: 60px;
 }
 
-.section-title h2 {
+.what-we-do-section h2 {
     font-size: 2.8rem;
     margin-bottom: 20px;
     color: #0B1F3B;
 }
 
-.section-title p {
-    font-size: 1.1rem;
+.what-we-do-section p {
+    font-size: 1.5rem;
     line-height: 1.8;
     color: #0B1F3B;
 }
@@ -167,15 +163,38 @@ header {
 
 /* WHY SECTION */
 .why {
-  padding: 80px 0;
+  font-size: 1.5rem;
+}
+
+.why h2 {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .why ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   max-width: 600px;
   margin: auto;
+}
+
+.why-container {
+  margin-top: 90px;
+  margin-bottom: 100px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 100px;
+  background-color: #FF6B00;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 15px rgba(255, 107, 0, 0.6);
+}
+
+.why p {
+  padding: 30px 30px;
+  background-color: #0B1F3B;
+  border: 2px solid #eee;
+  border-radius: 15px;
 }
 
 /* CTA SECTION */
@@ -222,19 +241,6 @@ nav a {
 
 .hero h1 {
   font-size: 1.8em;
-}
-
-.cta button {
-  margin: 10px;
-  padding: 12px 20px;
-  border: none;
-  background: #0B1F3B;
-  color: white;
-  cursor: pointer;
-}
-
-.cta .secondary {
-  background: #444;
 }
 
 .services {
