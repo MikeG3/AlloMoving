@@ -5,10 +5,9 @@ ORANGE #FF6B00
 GRAY (almost white ) #F2F4F7
 
  */
-
- 
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   background-color: #FF6B00;
   color: #0B1F3B;
@@ -22,21 +21,71 @@ body {
   background-color: rgba(255, 255, 255, 0.0);
 }
 
+/* DESKTOP HEADER */
 header {
-  background: white;
-  border-bottom: 1px solid #eee;
+  background-color: #0B1F3B;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: row;
+  /* Places items side-by-side */
+  align-items: center;
+  /* Centers items vertically */
+  justify-content: center;
+  /* Centers the whole group horizontally */
+  gap: 30px;
+  /* Adds clean spacing between logo and text */
+  max-width: 1200px;
+  /* Matches your container constraints */
+  margin: 0 auto;
+  /* Centers the wrapper itself */
+  padding: 20px;
+  /* Replaces individual container paddings */
+}
+
+
+.logo_container {
+  padding: 0;
+}
+
+.logo {
+  height: 150px !important;
+  /* Shrunk slightly so it fits nicely side-by-side */
+  width: auto;
+  display: block;
+}
+
+.logo_text_container {
+  text-align: left;
+  color: white;
+  margin-bottom: 0;
+}
+
+.logo_text_container h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.logo_text_container h2 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
 /* HERO */
 .hero {
   padding: 140px 20px;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .hero h1 {
   font-size: 3.2em;
   max-width: 800px;
   margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .hero p {
@@ -45,7 +94,8 @@ header {
 }
 
 /* CTA buttons */
-.hero-button-1, .hero-button-2 {
+.hero-button-1,
+.hero-button-2 {
   padding: 15px 30px;
   font-size: 2.2rem;
   background: #F2F4F7;
@@ -54,7 +104,7 @@ header {
 }
 
 
-/* ABOUT US SECTION */ 
+/* ABOUT US SECTION */
 .about {
   padding: 80px 0;
   text-align: center;
@@ -84,81 +134,81 @@ header {
 }
 
 
-  /* SERVICES SECTION */
-  /* ==========================================
+/* SERVICES SECTION */
+/* ==========================================
    WHAT WE DO
 ========================================== */
 
 .services-section {
-    padding: 80px 40px;
-    background: #f8f9fb;
+  padding: 80px 40px;
+  background: #f8f9fb;
 }
 
 .what-we-do-section {
-    text-align: center;
-    max-width: 900px;
-    margin: auto;
-    margin-bottom: 60px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 60px;
 }
 
 .what-we-do-section h2 {
-    font-size: 2.8rem;
-    margin-bottom: 20px;
-    color: #0B1F3B;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #0B1F3B;
 }
 
 .what-we-do-section p {
-    font-size: 1.5rem;
-    line-height: 1.8;
-    color: #0B1F3B;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #0B1F3B;
 }
 
 .services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px,1fr));
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 30px;
 }
 
 .service-category {
-    background: white;
-    border-radius: 12px;
-    padding: 30px;
-    box-shadow: 0 8px 30px rgba(0,0,0,.08);
-    transition: .25s;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, .08);
+  transition: .25s;
 }
 
 .service-category:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, .15);
 }
 
 .service-category h3 {
-    color: #0B1F3B;
-    margin-bottom: 18px;
-    border-bottom: 3px solid #0B1F3B;
-    padding-bottom: 10px;
+  color: #0B1F3B;
+  margin-bottom: 18px;
+  border-bottom: 3px solid #0B1F3B;
+  padding-bottom: 10px;
 }
 
 .service-category ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .service-category li {
-    padding: 8px 0;
-    border-bottom: 1px solid #ececec;
+  padding: 8px 0;
+  border-bottom: 1px solid #ececec;
 }
 
 .service-category li:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .service-category li::before {
-    content: "✓";
-    color: #0B1F3B;
-    font-weight: bold;
-    margin-right: 10px;
+  content: "✓";
+  color: #0B1F3B;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 /* WHY ALLO MOVING SECTION */
@@ -291,23 +341,23 @@ footer {
 .blue-to-orange-grandient {
   height: 120px;
   z-index: 10;
-  background: linear-gradient(to bottom , #0B1F3B, #FF6B00);
+  background: linear-gradient(to bottom, #0B1F3B, #FF6B00);
 }
 
 .orange-to-blue-grandient {
   height: 120px;
   z-index: 10;
-  background: linear-gradient(to bottom , #FF6B00, #0B1F3B);
+  background: linear-gradient(to bottom, #FF6B00, #0B1F3B);
 }
 
 .blue-to-white-grandient {
   height: 120px;
   z-index: 10;
-  background: linear-gradient(to bottom , #0B1F3B, #F2F4F7);
+  background: linear-gradient(to bottom, #0B1F3B, #F2F4F7);
 }
 
 .white-to-blue-grandient {
   height: 120px;
   z-index: 10;
-  background: linear-gradient(to bottom , #F2F4F7, #0B1F3B);
+  background: linear-gradient(to bottom, #F2F4F7, #0B1F3B);
 }
