@@ -56,6 +56,7 @@ header {
 }
 
 .logo_text_container h1 {
+  color: #FF6B00;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -105,6 +106,11 @@ header {
   background-color: #FF6B00;
   color: #F2F4F7;
   font-size: 1.5rem;
+}
+
+.about-us-cards {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-us-container {
@@ -218,6 +224,7 @@ header {
   margin-top: 80px;
   margin-bottom: 60px;
   text-align: center;
+  color: #FF6B00;
 }
 
 
@@ -235,7 +242,8 @@ header {
 
 .why p {
   padding: 30px 30px;
-  background-color: #0B1F3B;
+  background-color: #F2F4F7;
+  color: #0B1F3B;
   border: 2px solid #eee;
   border-radius: 15px;
   box-shadow: 0 0 8px 8px rgba(11, 31, 59, 0.6);
@@ -353,4 +361,10 @@ footer {
   height: 120px;
   z-index: 10;
   background: linear-gradient(to bottom, #F2F4F7, #0B1F3B);
+}
+
+.blue-to-orange-to-blue-grandient {
+  height: 6px;
+  z-index: 10;
+  background: linear-gradient(to bottom, #0B1F3B, #FF6B00, #0B1F3B);
 }
