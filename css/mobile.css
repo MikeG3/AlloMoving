@@ -2,29 +2,29 @@
 
     /* Services Section */
     .services-section {
-    padding: 50px 20px;
-}
+        padding: 50px 20px;
+    }
 
-.section-title h2 {
-    font-size: 2rem;
-}
+    .section-title h2 {
+        font-size: 2rem;
+    }
 
-.section-title p {
-    font-size: 1rem;
-}
+    .section-title p {
+        font-size: 1rem;
+    }
 
-.services-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-}
+    .services-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 
-.service-category {
-    padding: 20px;
-}
+    .service-category {
+        padding: 20px;
+    }
 
-.service-category h3 {
-    font-size: 1.2rem;
-}
-    
+    .service-category h3 {
+        font-size: 1.2rem;
+    }
+
 }
