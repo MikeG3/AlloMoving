@@ -224,7 +224,7 @@ header {
   margin-top: 80px;
   margin-bottom: 60px;
   text-align: center;
-  color: #FF6B00;
+  color: #F2F4F7;
 }
 
 
@@ -237,13 +237,13 @@ header {
   padding: 30px 100px;
   background-color: #FF6B00;
   border-radius: 20px;
-  box-shadow: 0 0 15px 15px rgba(255, 107, 0, 0.6);
+  box-shadow: 0 0 15px 15px rgba(240, 242, 247, 0.6);
 }
 
 .why p {
   padding: 30px 30px;
-  background-color: #F2F4F7;
-  color: #0B1F3B;
+  background-color: #0B1F3B;
+  color: #F2F4F7;
   border: 2px solid #eee;
   border-radius: 15px;
   box-shadow: 0 0 8px 8px rgba(11, 31, 59, 0.6);
