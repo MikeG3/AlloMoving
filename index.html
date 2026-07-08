@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Allo Moving</title>
@@ -13,21 +14,36 @@
 
 <body>
 
-<header>
-  <div class="container nav">
-    <img src="images/Allo_Moving_Logo.jpg" class="logo" alt="Allo Moving">
-        
-    <nav>
+  <header>
+    <div class="nav_container">
+      <img src="images/Allo_Moving_Logo.jpg" class="logo" alt="Allo Moving">
+
+      <nav>
         <a href="#services"><span>Services</span></a>
         <a href="#quote"><span>Get a Quote</span></a>
         <a href="#contact"><span>Contact</span></a>
         <button id="langToggle">FR</button>
-    </nav>
-  </div>
-</header>
+      </nav>
+    </div>
+  </header>
 
-<!-- HERO -->
-<section id="home" class="hero">
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+
+    <div class="container">
+      <h1>Your Move. Our Mission</h1>
+
+      <p>
+        Big or small, residential or commercial — Allo Moving handles it with precision, speed, and zero stress.
+      </p>
+
+      <div class="cta">
+        <button>Get a Free Quote</button>
+        <button class="secondary">Call Now</button>
+      </div>
+    </div>
+    <!--
   <div class="container">
     <h1 data-en="Move Smart. Move Clean. Move Stress-Free."
         data-fr="Déménagez sans stress. Simple. Rapide. Efficace.">
@@ -44,69 +60,254 @@
       <button class="secondary">Call Now</button>
     </div>
   </div>
-</section>
+  -->
+  </section>
 
-<!-- ABOUT -->
-<section class="about container">
-  <h2>About Us</h2>
-  <p>
-    We’re a reliable moving team that handles everything from packing to full-service moves.
-    Simple, efficient, and stress-free.
-  </p>
-</section>
+  <!-- ABOUT -->
+  <section class="about container" id="about-section">
+    <h2>ABOUT US</h2>
+    <p>
+      At Allo Moving, our mission is simple: to deliver reliable, structured moving services executed with precision.
+      We understand that a move represents much more than transportation. Whether residential or commercial, 
+      it’s an important transition that requires organization, efficiency, and professionalism.
 
-<!-- SERVICES -->
-<section id="services" class="services">
-  <div class="container">
-    <h2>Our Services</h2>
 
-    <div class="grid">
-      <div class="card">Residential Moving</div>
-      <div class="card">Packing & Unpacking</div>
-      <div class="card">Deep Cleaning</div>
-      <div class="card">Decluttering</div>
-      <div class="card">Furniture Assembly</div>
-      <div class="card">Junk Removal</div>
-      <div class="card">Office Moving</div>
-      <div class="card">Same-Day Truck Service</div>
-    </div>
-  </div>
-</section>
-
-<!-- WHY US -->
-<section id="why" class="why">
-  <div class="container">
-    <h2>Why Choose Us</h2>
-
+    </p>
+    <p>
+      We understand that a move represents much more than transportation. Whether residential or commercial, it’s an
+      important transition that requires organization, efficiency, and professionalism.
+      Our team is trained to handle every item with care — from fragile belongings to specialized equipment — using safe
+      methods and the right tools for the job.
+      We focus on:
+    </p>
     <ul>
-      <li>Reliable & On Time</li>
-      <li>Transparent Pricing</li>
-      <li>Careful Handling</li>
-      <li>Fully Equipped & Insured</li>
-      <li>Professional Crew</li>
+      <div class="card">Punctuality</div>
+      <div class="card">Detailed planning</div>
+      <div class="card">Protection of your belongings</div>
+      <div class="card">Clear communication</div>
+      <div class="card">Respectful, professional service</div>
     </ul>
-  </div>
+    <p>
+      With Allo Moving, you gain a trusted partner who takes your project seriously — from the first call to final
+      placement.
+    </p>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why" class="why">
+    <div class="container">
+      <h2>WHY CHOOSE ALLO MOVING</h2>
+
+      <p>
+        1. We Show Up. On Time. Every Time.
+        No excuses. No last-minute cancellations. No disappearing acts.When you book Allo Moving, we lock it in — and
+        we deliver.
+      </p>
+      <p>
+        2. Professional, Not Just “Guys With a Truck”
+        Trained movers. Proper equipment. Clean trucks. Organized process.We protect your furniture, your walls, your
+        floors — and your peace of mind.
+      </p>
+      <p>
+        3. Full-Service = Less Stress
+        Moving, packing, deep cleaning, decluttering — we handle everything.One company. One team. Zero chaos.
+      </p>
+      <p>
+        4. Transparent Pricing
+        No surprise fees. No hidden charges.You know what you’re paying — upfront.
+      </p>
+      <p>
+        5. Residential & Commercial Expertise
+        Apartments. Houses. Offices. Retail. Storage.Whether you're moving your home or relocating your business, we
+        move efficiently and professionally.
+      </p>
+      <p>
+        6. Local. Reliable. Built on Reputation.
+        We’re building this company on repeat customers and referrals — not one-time jobs.That means we treat every
+        move like it matters. Because it does!
+      </p>
+
+      <!--
+      <div class="grid">
+        <div class="card">Reliable & On Time</div>
+        <div class="card">Transparent Pricing</div>
+        <div class="card">Careful Handling</div>
+        <div class="card">Fully Equipped & Insured</div>
+        <div class="card">Professional Crew</div>
+      </div>
+      -->
+
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+   <!--
+  <section id="services" class="services">
+    <div class="container">
+      <h2>OUR SERVICES</h2>
+
+      <div class="grid">
+        <div class="card">Residential Moving</div>
+        <div class="card">Packing & Unpacking</div>
+        <div class="card">Deep Cleaning</div>
+        <div class="card">Decluttering</div>
+        <div class="card">Furniture Assembly</div>
+        <div class="card">Junk Removal</div>
+        <div class="card">Office Moving</div>
+        <div class="card">Same-Day Truck Service</div>
+      </div>
+    </div>
+  </section>
+-->
+
+<section id="services" class="services-section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>What We Do</h2>
+            <p>
+                From local residential moves to commercial relocations, packing,
+                cleaning, and specialty services, Allo Moving provides dependable,
+                professional solutions tailored to your needs.
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-category">
+                <h3>Residential Moving Services</h3>
+                <ul>
+                    <li>Local Moving</li>
+                    <li>Long-Distance Moving</li>
+                    <li>Apartment Moving</li>
+                    <li>Condo Moving</li>
+                    <li>House Moving</li>
+                    <li>Senior Moving Services</li>
+                    <li>Last-Minute Moving</li>
+                    <li>Single-Item Moving</li>
+                </ul>
+            </div>
+
+            <div class="service-category">
+                <h3>Commercial Moving Services</h3>
+                <ul>
+                    <li>Office Relocation</li>
+                    <li>Corporate Relocation</li>
+                    <li>Retail Store Moving</li>
+                    <li>Warehouse Moving</li>
+                    <li>Office Furniture Moving</li>
+                    <li>Internal Office Moves</li>
+                </ul>
+            </div>
+
+            <div class="service-category">
+                <h3>Packing & Organization</h3>
+                <ul>
+                    <li>Full Packing Services</li>
+                    <li>Partial Packing Services</li>
+                    <li>Fragile Item Packing</li>
+                    <li>Unpacking Services</li>
+                    <li>Packing Supplies</li>
+                    <li>Furniture Wrapping & Protection</li>
+                </ul>
+            </div>
+
+            <div class="service-category">
+                <h3>Furniture & Specialty Moving</h3>
+                <ul>
+                    <li>Furniture Disassembly</li>
+                    <li>Furniture Reassembly</li>
+                    <li>Appliance Moving</li>
+                    <li>Piano Moving</li>
+                    <li>Safe Moving</li>
+                    <li>Fitness Equipment Moving</li>
+                    <li>Fine Art & Antique Moving</li>
+                </ul>
+            </div>
+
+            <div class="service-category">
+                <h3>Loading & Storage Services</h3>
+                <ul>
+                    <li>Truck Loading & Unloading</li>
+                    <li>Storage Unit Moves</li>
+                    <li>POD & Container Loading</li>
+                    <li>POD & Container Unloading</li>
+                    <li>U-Haul Loading Assistance</li>
+                </ul>
+            </div>
+
+            <div class="service-category">
+                <h3>Cleaning Services</h3>
+                <ul>
+                    <li>Move-In Cleaning</li>
+                    <li>Move-Out Cleaning</li>
+                    <li>Post-Move Cleaning</li>
+                    <li>Residential Cleaning</li>
+                    <li>Commercial Cleaning</li>
+                    <li>Deep Cleaning Services</li>
+                </ul>
+            </div>
+
+            <div class="service-category">
+                <h3>Junk Removal Services</h3>
+                <ul>
+                    <li>Furniture Removal</li>
+                    <li>Appliance Removal</li>
+                    <li>Household Junk Removal</li>
+                    <li>Office Cleanouts</li>
+                    <li>Garage & Basement Cleanouts</li>
+                    <li>Recycling & Donation Drop-Offs</li>
+                </ul>
+            </div>
+
+            <div class="service-category">
+                <h3>Additional Services</h3>
+                <ul>
+                    <li>Furniture Delivery</li>
+                    <li>Appliance Delivery</li>
+                    <li>Free Moving Estimates</li>
+                    <li>Virtual Estimates</li>
+                    <li>Weekend & Evening Moves</li>
+                    <li>Emergency Moving Services</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
-<!-- CTA -->
+  <!-- CTA -->
+  <!--
 <section id="quote" class="cta-section">
   <h2>Ready to Move?</h2>
   <p>Get your free quote today.</p>
   <button>Request a Quote</button>
 </section>
+-->
 
-<!-- CONTACT -->
-<section id="contact" class="contact container">
-  <h2>Contact</h2>
-  <p>Phone: (XXX) XXX-XXXX</p>
-  <p>Email: info@allomoving.ca</p>
-</section>
+  <!-- ON THE MOVE - PICTURES  -->
+  <section id="quote" class="cta-section">
+    <h2>On The Move</h2>
+  </section>
 
-<footer>
-  <p>© 2026 Allo Moving</p>
-</footer>
+  <!-- CONTACT -->
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <p>(438) 969-7791</p>
+    <p>Montreal Moving</p>
+    <p>AlloMoving@gmail.com</p>
+    <p>Get your free estimate now</p>
+  </section>
 
-<script src="js/script.js"></script>
+  <footer>
+    <p>© 2026 Allo Moving</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 
 </body>
+
 </html>

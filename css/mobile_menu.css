@@ -32,7 +32,7 @@ nav a span {
 /* Tap / hover effect */
 nav a span:hover,
 nav a span:active {
-  background: #007BFF;
+  background: #0B1F3B;
   color: white;
 }
 

@@ -34,6 +34,7 @@
 }
 
 /* SERVICES GRID */
+/*
 .grid {
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
@@ -46,6 +47,84 @@
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+  */
+
+  /* SERVICES SECTION */
+  /* ==========================================
+   WHAT WE DO
+========================================== */
+
+.services-section {
+    padding: 80px 40px;
+    background: #f8f9fb;
+}
+
+.section-title {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #0B1F3B;
+}
+
+.section-title p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #0B1F3B;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px,1fr));
+    gap: 30px;
+}
+
+.service-category {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.08);
+    transition: .25s;
+}
+
+.service-category:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.service-category h3 {
+    color: #0B1F3B;
+    margin-bottom: 18px;
+    border-bottom: 3px solid #0B1F3B;
+    padding-bottom: 10px;
+}
+
+.service-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-category li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ececec;
+}
+
+.service-category li:last-child {
+    border-bottom: none;
+}
+
+.service-category li::before {
+    content: "✓";
+    color: #0B1F3B;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 /* WHY SECTION */
@@ -74,4 +153,112 @@
 .contact {
   padding: 80px 0;
   text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #0B1F3B;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  background: #FF6B00;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 1.8em;
+}
+
+.cta button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  background: #0B1F3B;
+  color: white;
+  cursor: pointer;
+}
+
+.cta .secondary {
+  background: #444;
+}
+
+.services {
+  background: #FF6B00;
+  padding: 40px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.card {
+  padding: 20px;
+  background: white;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.why {
+  background: #0B1F3B;
+  padding: 40px 0;
+  color: white;
+}
+
+.why ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why li {
+  margin: 10px 0;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: #0B1F3B;
+  color: white;
+}
+
+.contact {
+  padding: 40px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0B1F3B;
+  color: white;
 }
