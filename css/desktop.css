@@ -29,19 +29,12 @@ header {
 .header_content {
   display: flex;
   flex-direction: row;
-  /* Places items side-by-side */
   align-items: center;
-  /* Centers items vertically */
   justify-content: center;
-  /* Centers the whole group horizontally */
   gap: 30px;
-  /* Adds clean spacing between logo and text */
   max-width: 1200px;
-  /* Matches your container constraints */
   margin: 0 auto;
-  /* Centers the wrapper itself */
   padding: 20px;
-  /* Replaces individual container paddings */
 }
 
 

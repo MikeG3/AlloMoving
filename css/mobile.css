@@ -1,30 +1,114 @@
 @media (max-width: 768px) {
 
-    /* Services Section */
-    .services-section {
-        padding: 50px 20px;
+
+    /* HEADER */
+    .header_content {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
     }
 
-    .section-title h2 {
+    /* LOGO */
+    .logo_text_container {
+        text-align: center;
+    }
+
+    .logo {
+        height: 110px !important;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+        line-height: 1.15;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+
+    .cta {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .hero-button-1,
+    .hero-button-2 {
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 18px;
+    }
+
+    /* ABOUT */
+    .about {
+        padding: 40px 15px;
+        font-size: 1.1rem;
+    }
+
+    .about-us-container {
+        padding: 25px;
+    }
+
+    .card {
+        margin: 15px 0;
+        padding: 16px;
+    }
+
+    /*  WHY CHOOSE US */
+    .why h2 {
         font-size: 2rem;
+        margin: 40px 20px;
     }
 
-    .section-title p {
+    .why-container {
+        width: auto;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .why p {
+        padding: 20px;
         font-size: 1rem;
     }
 
+    /* SERVICES */
+    .services-section {
+        padding: 40px 20px;
+    }
+
+    /* WHAT WE DO */
+    .what-we-do-section h2 {
+        font-size: 2rem;
+    }
+
+    .what-we-do-section p {
+        font-size: 1rem;
+    }
+
+    /* SERVICES  */
     .services-grid {
-        display: grid;
         grid-template-columns: 1fr;
-        gap: 20px;
     }
 
     .service-category {
         padding: 20px;
     }
 
-    .service-category h3 {
-        font-size: 1.2rem;
+    /* CONTACT */
+    .contact {
+        padding: 40px 20px;
+    }
+
+    .contact-container {
+        padding: 25px;
     }
 
 }

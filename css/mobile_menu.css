@@ -1,53 +1,5 @@
 @media (max-width: 768px) {
 
-  /* MOBILE MENU */
-  header {
-    top: 0;
-    z-index: 1000;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    /* 🔑 distribute evenly */
-    align-items: center;
-    width: 100%;
-  }
-
-  nav a {
-    flex: 1;
-    /* 🔑 equal width */
-    text-align: center;
-  }
-
-  nav a span {
-    display: block;
-    padding: 8px 4px;
-    /* 🔑 tighter padding */
-    font-size: 0.8em;
-    /* 🔑 smaller text */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /* 🔑 prevents overflow */
-    border-bottom: 1px solid #eee;
-  }
-
-  /* Tap / hover effect */
-  nav a span:hover,
-  nav a span:active {
-    background: #0B1F3B;
-    color: white;
-  }
-
-  /* Language button */
-  #langToggle {
-    flex: 0 0 auto;
-    padding: 8px 6px;
-    font-size: 0.8em;
-    margin-left: 4px;
-  }
+ 
 
 }

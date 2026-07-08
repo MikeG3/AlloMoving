@@ -110,11 +110,13 @@
     }
 
     .gallery-item {
-        width: 200px;
+        width: auto;
+
     }
 
     .equipment-gallery img{
         width: 150px;
+        gap: 30px;
     }
 
 }
