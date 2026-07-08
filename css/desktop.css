@@ -161,22 +161,22 @@ header {
     margin-right: 10px;
 }
 
-/* WHY SECTION */
+/* WHY ALLO MOVING SECTION */
+
 .why {
+  background: #0B1F3B;
+  padding: 40px 0;
+  color: white;
   font-size: 1.5rem;
 }
 
 .why h2 {
+  font-size: 3rem;
   margin-top: 80px;
   margin-bottom: 60px;
   text-align: center;
 }
 
-.why ul {
-  gap: 10px;
-  max-width: 600px;
-  margin: auto;
-}
 
 .why-container {
   margin-top: 90px;
@@ -195,6 +195,7 @@ header {
   background-color: #0B1F3B;
   border: 2px solid #eee;
   border-radius: 15px;
+  box-shadow: 0 0 8px 8px rgba(11, 31, 59, 0.6);
 }
 
 /* CTA SECTION */
@@ -212,6 +213,15 @@ header {
   text-align: center;
   background-color: #FF6B00;
   color: #F2F4F7;
+}
+
+.contact-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 100px;
+  background-color: #0B1F3B;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.6);
 }
 
 .nav {
@@ -254,21 +264,6 @@ nav a {
   gap: 15px;
 }
 
-/* WHY US */
-.why {
-  background: #0B1F3B;
-  padding: 40px 0;
-  color: white;
-}
-
-.why ul {
-  list-style: none;
-  padding: 0;
-}
-
-.why li {
-  margin: 10px 0;
-}
 
 /* ON THE MOVE GALLERY */
 
