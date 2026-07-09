@@ -287,24 +287,6 @@ header {
   color: white;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 0;
-}
-
-.logo {
-  height: 50px;
-}
-
-nav a {
-  display: block;
-  margin: 10px 0;
-  text-decoration: none;
-  color: #333;
-}
-
 .hero {
   background: #0B1F3B;
   text-align: center;
@@ -364,13 +346,13 @@ footer {
 }
 
 .blue-to-white-grandient {
-  height: 120px;
+  height: 90px;
   z-index: 10;
   background: linear-gradient(to bottom, #0B1F3B, #F2F4F7);
 }
 
 .white-to-blue-grandient {
-  height: 120px;
+  height: 90px;
   z-index: 10;
   background: linear-gradient(to bottom, #F2F4F7, #0B1F3B);
 }
