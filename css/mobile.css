@@ -2,6 +2,11 @@
 
 
     /* HEADER */
+
+    .logo {
+        height: 80px !important;
+    }
+
     .header_content {
         gap: 10px;
         padding: 20px;
@@ -21,10 +26,6 @@
         font-size: 1.1rem;
     }
 
-
-    .logo {
-        height: 110px !important;
-    }
 
     /* HERO */
     .hero {

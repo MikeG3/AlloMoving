@@ -26,6 +26,7 @@ header {
   position: sticky;
   top: 0;
   background-color: #0B1F3B;
+  z-index: 5000;
 }
 
 .header_content {
@@ -45,8 +46,7 @@ header {
 }
 
 .logo {
-  height: 150px !important;
-  /* Shrunk slightly so it fits nicely side-by-side */
+  height: 110px !important;
   width: auto;
   display: block;
 }
@@ -58,12 +58,14 @@ header {
 }
 
 .logo_text_container h1 {
+
   color: #FF6B00;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .logo_text_container h2 {
+  font-size: 1.4rem;
   margin-top: 0;
   margin-bottom: 0;
 }
