@@ -84,9 +84,26 @@ header {
 
 /* HERO */
 .hero {
-  padding: 140px 20px;
-  padding-top: 0;
-  margin-top: 0;
+    position: relative;
+    padding: 140px 20px;
+    color: white;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(11,31,59,0.96) 0%,
+            rgba(11,31,59,0.88) 45%,
+            rgba(11,31,59,0.72) 70%,
+            rgba(11,31,59,0.45) 100%
+        ),
+        url("images/4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
 }
 
 .hero h1 {
@@ -311,7 +328,7 @@ header {
   margin: 40px auto;
 }
 
-.hero-button {
+.cta-button {
   display: inline-block;
   text-align: center;
   padding: 15px 30px;
