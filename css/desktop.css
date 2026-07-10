@@ -5,9 +5,14 @@ ORANGE #FF6B00
 GRAY (almost white ) #F2F4F7
 
  */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
   overflow-x: hidden;
-  width: 100dvw;
 }
 
 body {
