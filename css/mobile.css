@@ -1,10 +1,7 @@
 @media (max-width: 768px) {
-
-
     /* HEADER */
-
     .logo {
-        height: 80px !important;
+        height: 70px !important;
     }
 
     .header_content {
