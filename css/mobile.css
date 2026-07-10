@@ -47,16 +47,16 @@
     }
 
     .hero-button{
-
         width:85%;
         max-width:320px;
         min-width:0;
-
         font-size:1.2rem;
-
         padding:14px 20px;
-
         box-sizing:border-box;
+    }
+
+    .spacer {
+        height: 5dvh;
     }
 
     /* ABOUT */
