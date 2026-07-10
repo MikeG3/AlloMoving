@@ -416,9 +416,15 @@ header {
   box-shadow: 6px 12px 20px rgba(11, 26, 41, .8);
 }
 
-.style-4-button:hover {
+.style-4-button:hover, .style-5-button:hover {
   background: #F2F4F7 !important;
   color: #0B1F3B !important;
+}
+
+.style-5-button {
+  background-color: #FF6B00;
+  color: #F2F4F7;
+  width: 60%;
 }
 
 .cta-button:hover {
@@ -513,8 +519,18 @@ header {
 }
 
 .contact {
+  width: 100%;
   padding: 40px 0;
   font-size: 1.7rem;
+  background: #FF6B00
+}
+
+.contact-container {
+  width: 80%;
+}
+
+.contact h2 {
+  color: #FF6B00;
 }
 
 footer {
