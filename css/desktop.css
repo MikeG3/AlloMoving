@@ -406,6 +406,17 @@ header {
   color: #F2F4F7;
 }
 
+.style-4-button {
+  background: #0B1F3B;
+  color: #F2F4F7;
+  box-shadow: 6px 12px 20px rgba(11, 26, 41, .8);
+}
+
+.style-4-button:hover {
+  background: #F2F4F7 !important;
+  color: #0B1F3B !important;
+}
+
 .cta-button:hover {
   background: #FF6B00;
   color: white;
