@@ -96,16 +96,6 @@ header {
   margin-top: 20px;
 }
 
-/* CTA buttons */
-.hero-button-1,
-.hero-button-2 {
-  padding: 15px 30px;
-  font-size: 2.2rem;
-  background: #F2F4F7;
-  box-shadow: 6px 12px 20px rgba(255, 107, 0, 0.6);
-  border-radius: 15px;
-}
-
 
 /* ABOUT US SECTION */
 .about {
@@ -257,14 +247,7 @@ header {
   box-shadow: 0 0 8px 8px rgba(11, 31, 59, 0.6);
 }
 
-/* CTA SECTION */
-.cta-section {
-  padding: 80px 20px;
-}
 
-.cta-section h2 {
-  font-size: 2.2em;
-}
 
 /* CONTACT */
 .contact {
@@ -309,9 +292,34 @@ header {
   gap: 15px;
 }
 
+/* CTA buttons */
+.hero-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 2.2rem;
+    background: #F2F4F7;
+    color: #0B1F3B;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 6px 12px 20px rgba(255,107,0,.6);
+    transition: .25s ease;
+}
+
+.hero-button:hover {
+    background: #FF6B00;
+    color: white;
+    transform: translateY(-4px);
+}
+
+.hero-button:active {
+    transform: translateY(0);
+}
 
 /* ON THE MOVE GALLERY */
-
+/* CTA SECTION */
+.cta-section h2 {
+  font-size: 2.2em;
+}
 
 .cta-section {
   text-align: center;
