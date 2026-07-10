@@ -43,6 +43,7 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  padding-bottom: 5px;
 }
 
 
@@ -51,7 +52,7 @@ header {
 }
 
 .logo {
-  height: 110px !important;
+  height: 70px !important;
   width: auto;
   display: block;
 }
@@ -63,14 +64,14 @@ header {
 }
 
 .logo_text_container h1 {
-
+  font-size: 1.4rem;
   color: #FF6B00;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .logo_text_container h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-top: 0;
   margin-bottom: 0;
 }
