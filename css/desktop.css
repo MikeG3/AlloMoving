@@ -293,26 +293,52 @@ header {
 }
 
 /* CTA buttons */
+.cta {
+  display: flex;
+  justify-content: center;
+  /* Center the buttons */
+  align-items: center;
+  gap: 25px;
+  /* Space between buttons */
+  flex-wrap: wrap;
+  /* Allows wrapping on small screens */
+  margin: 40px auto;
+}
+
 .hero-button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 2.2rem;
-    background: #F2F4F7;
-    color: #0B1F3B;
-    text-decoration: none;
-    border-radius: 15px;
-    box-shadow: 6px 12px 20px rgba(255,107,0,.6);
-    transition: .25s ease;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 2.2rem;
+  background: #F2F4F7;
+  color: #0B1F3B;
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 6px 12px 20px rgba(255, 107, 0, .6);
+  transition: .25s ease;
+}
+
+.style-2-button {
+  box-shadow: 6px 12px 20px rgba(11, 26, 41, .6);
+}
+
+.style-3-button {
+  background: #0B1F3B;
+  color:  #F2F4F7;
 }
 
 .hero-button:hover {
-    background: #FF6B00;
-    color: white;
-    transform: translateY(-4px);
+  background: #FF6B00;
+  color: white;
+  transform: translateY(-4px);
+}
+
+.style-2-button:hover {
+  background: #0B1F3B;
+  color: #FF6B00;
 }
 
 .hero-button:active {
-    transform: translateY(0);
+  transform: translateY(0);
 }
 
 /* ON THE MOVE GALLERY */
@@ -321,7 +347,7 @@ header {
   font-size: 2.2em;
 }
 
-.cta-section {
+.on-the-move-section {
   text-align: center;
   padding: 40px 20px;
   background: #0B1F3B;
@@ -369,4 +395,8 @@ footer {
   height: 6px;
   z-index: 10;
   background: linear-gradient(to bottom, #0B1F3B, #FF6B00, #0B1F3B);
+}
+
+.spacer {
+  height: 10dvh;
 }
