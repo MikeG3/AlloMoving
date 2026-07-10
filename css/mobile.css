@@ -1,4 +1,5 @@
 @media (max-width: 768px) {
+
     /* HEADER */
     .logo {
         height: 70px !important;
@@ -39,20 +40,20 @@
         margin-top: 20px;
     }
 
-      .cta{
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        gap:18px;
+    .cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
     }
 
     .cta-button {
-        width:85%;
-        max-width:320px;
-        min-width:0;
-        font-size:1.2rem;
-        padding:14px 20px;
-        box-sizing:border-box;
+        width: 85%;
+        max-width: 320px;
+        min-width: 0;
+        font-size: 1.2rem;
+        padding: 14px 20px;
+        box-sizing: border-box;
     }
 
     .spacer {
@@ -124,24 +125,49 @@
     }
 
     .regions-container {
-    width: 90%;
+        width: 90%;
     }
 
-        .regions-grid{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:10px;
+    .regions-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
     }
-    .region-card{
+
+    .region-card {
         width: 100px;
         padding: 5px 10px;
         font-size: 0.6rem;
-        border-radius:30px;
+        border-radius: 30px;
     }
 
     .region-card::before {
         margin-right: 4px;
+    }
+
+    /* ABOUT OWNER */
+    .owner-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .owner-image img {
+        max-width: 280px;
+    }
+
+    .owner-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .owner-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .owner-content p {
+        font-size: 1rem;
+        line-height: 1.7;
     }
 
     /* CONTACT */
