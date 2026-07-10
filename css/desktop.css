@@ -150,10 +150,14 @@ header {
   padding: 20px;
   border: 1px solid #eee;
   text-align: center;
-  background-color: #FF6B00;
+  background-color: #F2F4F7;
   border-radius: 10px;
   margin: 8px;
   color: #0B1F3B;
+}
+
+.about-us-card:hover {
+  background-color: #FF6B00;
 }
 
 
