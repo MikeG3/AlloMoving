@@ -116,6 +116,18 @@
         padding: 20px;
     }
 
+    /* REGIONS */
+    .regions-intro {
+        text-align: center;
+    }
+
+    
+
+    .region-card {
+        font-size: 0.6rem;
+        padding: 2px 5px;
+    }
+
     /* CONTACT */
     .contact {
         padding: 40px 20px;
