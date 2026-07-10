@@ -8,7 +8,7 @@ GRAY (almost white ) #F2F4F7
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -87,26 +87,21 @@ header {
 
 /* HERO */
 .hero {
-    position: relative;
-    padding: 140px 20px;
-    color: white;
-    background:
-        linear-gradient(
-            90deg,
-            rgba(11,31,59,0.96) 0%,
-            rgba(11,31,59,0.88) 45%,
-            rgba(11,31,59,0.72) 70%,
-            rgba(11,31,59,0.45) 100%
-        ),
-        url("images/4.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  padding: 140px 20px;
+  color: white;
+  background:
+    linear-gradient(90deg,
+      rgba(11, 31, 59, 0.96) 0%,
+      rgba(11, 31, 59, 0.88) 45%,
+      rgba(11, 31, 59, 0.72) 70%,
+      rgba(11, 31, 59, 0.45) 100%);
 }
 
 .hero .container {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .hero h1 {
@@ -296,13 +291,6 @@ header {
   color: white;
 }
 
-.hero {
-  background: #0B1F3B;
-  text-align: center;
-  padding: 80px 20px;
-  color: white;
-}
-
 .services {
   background: #FF6B00;
   padding: 40px 0;
@@ -346,7 +334,7 @@ header {
 
 .style-3-button {
   background: #0B1F3B;
-  color:  #F2F4F7;
+  color: #F2F4F7;
 }
 
 .cta-button:hover {
