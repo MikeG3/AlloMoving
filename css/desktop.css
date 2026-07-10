@@ -99,11 +99,6 @@ header {
       rgba(11, 31, 59, 0.45) 100%);
 }
 
-.hero .container {
-  position: relative;
-  z-index: 2;
-}
-
 .hero h1 {
   font-size: 3.2em;
   max-width: 800px;
