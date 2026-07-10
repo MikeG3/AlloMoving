@@ -66,6 +66,7 @@
     }
 
     .about-us-container {
+        width: 90%;
         padding: 25px;
     }
 
@@ -119,9 +120,12 @@
     /* REGIONS */
     .regions-intro {
         text-align: center;
+        font-size: 1.2rem;
     }
 
-    
+    .regions-container {
+    width: 90%;
+    }
 
     .region-card {
         font-size: 0.6rem;
