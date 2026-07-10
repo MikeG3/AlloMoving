@@ -56,6 +56,10 @@
         box-sizing: border-box;
     }
 
+    .style-5-button {
+        width: 94% ;
+    }
+
     .spacer {
         height: 5dvh;
     }
