@@ -127,9 +127,21 @@
     width: 90%;
     }
 
-    .region-card {
+        .regions-grid{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+    .region-card{
+        width: 100px;
+        padding: 5px 10px;
         font-size: 0.6rem;
-        padding: 2px 5px;
+        border-radius:30px;
+    }
+
+    .region-card::before {
+        margin-right: 4px;
     }
 
     /* CONTACT */
