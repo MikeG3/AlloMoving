@@ -302,7 +302,7 @@ header {
     background: #0B1F3B;
     border-radius: 25px;
     padding: 60px;
-    box-shadow: 0 15px 40px rgba(0,0,0,.30);
+  box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.6);
 }
 
 .regions-grid {
