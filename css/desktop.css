@@ -487,6 +487,116 @@ header {
   border-bottom: 3px solid #F2F4F7;
 }
 
+/* ==========================================
+   MONTHLY SPECIALS
+========================================== */
+.specials-section{
+    background:#0B1F3B;
+    padding:100px 20px;
+}
+
+.specials-container{
+    max-width:1300px;
+    margin:auto;
+    text-align:center;
+}
+
+.specials-container h2{
+    color:white;
+    font-size:3rem;
+    margin-bottom:20px;
+    padding-bottom:4px;
+    border-bottom:3px solid #FF6B00;
+}
+
+.specials-intro{
+    color:#F2F4F7;
+    font-size:1.2rem;
+    margin-bottom:35px;
+}
+
+.specials-call-button{
+    display:inline-block;
+    padding:18px 38px;
+    background:#FF6B00;
+    color:white;
+    text-decoration:none;
+    border-radius:12px;
+    font-size:1.3rem;
+    font-weight:bold;
+    transition:.3s;
+    margin-bottom:60px;
+}
+
+.specials-call-button:hover{
+    transform:translateY(-3px);
+    background:#ff7c22;
+}
+
+/* GRID */
+.coupon-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+/* COUPON */
+.coupon{
+    position:relative;
+    background:white;
+    border:4px dashed #FF6B00;
+    border-radius:20px;
+    padding:35px 25px;
+    transition:.25s;
+    overflow:hidden;
+}
+
+/* Fake coupon cuts */
+.coupon::before,
+.coupon::after{
+    content:"";
+    position:absolute;
+    width:28px;
+    height:28px;
+    background:#0B1F3B;
+    border-radius:50%;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.coupon::before{
+    left:-16px;
+}
+
+.coupon::after{
+    right:-16px;
+}
+
+.coupon:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 35px rgba(0,0,0,.25);
+}
+
+.coupon-value{
+    color:#FF6B00;
+    font-size:3rem;
+    font-weight:800;
+}
+
+.coupon-title{
+    color:#0B1F3B;
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+
+.coupon-description{
+    color:#444;
+    line-height:1.7;
+}
+
+
 /* OWNER */
 /* ==========================================
    ABOUT THE OWNER
