@@ -318,7 +318,7 @@ header {
   padding: 90px 20px;
 }
 
-.regions-container {
+.regions-container { /* removed */
   width: 85%;
   margin: auto;
   background: #0B1F3B;
@@ -331,7 +331,7 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 15px;
-  border: #0B1F3B solid 3px;
+  border: #0B1F3B solid 35px;
   background-color: #0B1F3B;
   border-radius: 30px;
   padding-top: 30px;
