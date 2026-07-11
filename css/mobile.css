@@ -77,9 +77,11 @@
         padding: 25px;
     }
 
-    .card {
+    .about-us-card {
+        font-size: 0.8rem;
         margin: 15px 0;
-        padding: 16px;
+        padding: 12px;
+        border: 2px solid #FF6B00;
     }
 
     /*  WHY CHOOSE US */
