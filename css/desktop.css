@@ -22,6 +22,8 @@ body {
   background-color: #FF6B00;
   color: #0B1F3B;
   font-size: 1.25rem;
+  
+  font-family: 'Barlow Condensed', sans-serif !important;
 }
 
 .container {
@@ -150,6 +152,11 @@ header {
   box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.6);
   width: 80%;
   max-width: 1200px;
+}
+
+.about-us-container h2{
+  font-family: 'Barlow Condensed', sans-serif !important;
+  border-bottom: 3px solid #FF6B00;
 }
 
 /* ABOUST US CARDS */
