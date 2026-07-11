@@ -60,6 +60,9 @@
         width: 100% !important;
         padding-left: auto;
         padding-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 
     .spacer {
