@@ -237,6 +237,35 @@
         margin-right: 4px;
     }
 
+
+/* ==========================================
+   REVIEWS
+========================================== */
+.reviews-slider{
+    gap:15px;
+    padding:10px;
+}
+
+.review-card{
+    min-width:280px;
+    max-width:280px;
+    padding:25px;
+}
+
+.review-text{
+    min-height:auto;
+    font-size:.95rem;
+}
+
+.review-arrow{
+    display:none;
+}
+
+.reviews-section h2{
+    font-size:2.2rem;
+}
+
+
     /* ABOUT OWNER */
     .owner-container {
         flex-direction: column;

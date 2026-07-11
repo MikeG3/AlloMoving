@@ -680,6 +680,123 @@ header {
 
 
 /* ==========================================
+   REVIEWS
+========================================== */
+.reviews-section{
+    background:#F2F4F7;
+    padding:100px 20px;
+}
+
+.reviews-section h2{
+    text-align:center;
+    font-size:3rem;
+    color:#0B1F3B;
+    margin-bottom:10px;
+}
+
+.reviews-subtitle{
+    text-align:center;
+    font-size:1.3rem;
+    color:#555;
+}
+
+.reviews-rating{
+    text-align:center;
+    color:#FF6B00;
+    font-weight:bold;
+    font-size:1.3rem;
+    margin-bottom:60px;
+}
+
+.reviews-wrapper{
+    position:relative;
+    display:flex;
+    align-items:center;
+}
+
+.reviews-slider{
+    display:flex;
+    gap:25px;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    scroll-snap-type:x mandatory;
+    scrollbar-width:none;
+    padding:20px;
+}
+
+.reviews-slider::-webkit-scrollbar{
+    display:none;
+}
+
+.review-card{
+    min-width:350px;
+    max-width:350px;
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    scroll-snap-align:center;
+    box-shadow:0 12px 35px rgba(0,0,0,.10);
+    transition:.3s;
+}
+
+.review-card:hover{
+    transform:translateY(-8px);
+}
+
+.stars{
+    color:#FF6B00;
+    font-size:1.3rem;
+    margin-bottom:20px;
+}
+
+.review-text{
+    font-style:italic;
+    line-height:1.8;
+    color:#444;
+    min-height:140px;
+}
+
+.review-card h4{
+    margin-bottom:5px;
+    color:#0B1F3B;
+}
+
+.review-card span{
+    color:#888;
+    font-size:.95rem;
+}
+
+/* arrows */
+.review-arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:50%;
+    background:#0B1F3B;
+    color:white;
+    font-size:1.5rem;
+    cursor:pointer;
+    z-index:5;
+    transition:.25s;
+}
+
+.review-arrow:hover{
+    background:#FF6B00;
+}
+
+.review-arrow.left{
+    left:-10px;
+}
+
+.review-arrow.right{
+    right:-10px;
+}
+
+
+/* ==========================================
    ABOUT THE OWNER
 ========================================== */
 .owner-section {
