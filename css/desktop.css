@@ -35,6 +35,13 @@ body {
   color: #FF6B00;
 }
 
+.orange-text-centered {
+  color: #FF6B00;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* DESKTOP HEADER */
 header {
   position: sticky;
