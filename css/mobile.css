@@ -217,7 +217,7 @@
     }
 
     .regions-grid {
-        width: 98%;
+        width: 100% !important;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
