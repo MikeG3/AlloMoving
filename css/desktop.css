@@ -692,11 +692,13 @@ header {
     font-size:3rem;
     color:#0B1F3B;
     margin-bottom:10px;
+    padding-bottom: 4px;
+    border-bottom: #0B1F3B 3px solid;
 }
 
 .reviews-subtitle{
     text-align:center;
-    font-size:1.3rem;
+    font-size:2rem;
     color:#555;
 }
 
@@ -737,10 +739,6 @@ header {
     scroll-snap-align:center;
     box-shadow:0 12px 35px rgba(0,0,0,.10);
     transition:.3s;
-}
-
-.review-card:hover{
-    transform:translateY(-8px);
 }
 
 .stars{
