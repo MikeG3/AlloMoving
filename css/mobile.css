@@ -230,7 +230,7 @@
         width: 100px;
         padding: 5px 10px;
         font-size: 0.65rem;
-        border-radius: 30px;
+        border-radius: 12px;
     }
 
     .region-card::before {
