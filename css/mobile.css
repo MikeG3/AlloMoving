@@ -24,6 +24,11 @@
         font-size: 1.1rem;
     }
 
+    .header-phone {
+        width: 48px;
+        height: 48px;
+        font-size: 1.5rem;
+    }
 
     /* HERO */
     .hero {
@@ -238,32 +243,32 @@
     }
 
 
-/* ==========================================
+    /* ==========================================
    REVIEWS
 ========================================== */
-.reviews-slider{
-    gap:15px;
-    padding:10px;
-}
+    .reviews-slider {
+        gap: 15px;
+        padding: 10px;
+    }
 
-.review-card{
-    min-width:280px;
-    max-width:280px;
-    padding:25px;
-}
+    .review-card {
+        min-width: 280px;
+        max-width: 280px;
+        padding: 25px;
+    }
 
-.review-text{
-    min-height:auto;
-    font-size:.95rem;
-}
+    .review-text {
+        min-height: auto;
+        font-size: .95rem;
+    }
 
-.review-arrow{
-    display:none;
-}
+    .review-arrow {
+        display: none;
+    }
 
-.reviews-section h2{
-    font-size:2.2rem;
-}
+    .reviews-section h2 {
+        font-size: 2.2rem;
+    }
 
 
     /* ABOUT OWNER */
